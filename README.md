@@ -27,3 +27,7 @@ Put this in the ignore part of your .flowconfig
 <PROJECT_ROOT>/node_modules/graphql-language-service/.*
 <PROJECT_ROOT>/node_modules/graphql/.*
 ```
+
+## prettier
+
+In order to follow the Facebook styleguide,  you should install the `prettier-atom` package. Then, in the settings pane, check `ESLint Integration` and `Format Files on Save`. Then, whenever you save the file, it'll be formatted correctly.
